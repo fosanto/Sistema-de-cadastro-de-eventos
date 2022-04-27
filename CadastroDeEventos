@@ -1,0 +1,26 @@
+console.log ('Cadastro de eventos!')
+
+let DatadoEvento = 01/01/2022
+
+if(DatadoEvento > 02/01/2022) {
+    console.log ("Cadastro do evento permitido.") 
+    
+    let IdadedoUsuário = 18
+
+    if (IdadedoUsuário > 17) {
+        console.log ("Idade permitida continuar cadastro.")
+    } else
+        console.log ("Idade não permitida")
+
+} else
+    console.log ("Data inválida")
+
+
+    let listadeParticipantes = ["Fábio", "Tim", "Romulo",]
+      console.log ("listar participantes e palestrantes", listadeParticipantes, listadeParticipantes.length)
+
+
+    if (listadeParticipantes.length < 99) {
+        console.log ("Quantidade de participantes permitido. Concluído.")
+    } else 
+      console.log ("Quantidade excedida acima de 100 pessoas. proibido cadastro.")
